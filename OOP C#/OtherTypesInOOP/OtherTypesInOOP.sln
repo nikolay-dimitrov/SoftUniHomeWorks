@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem1GalacticGPS", "Problem1GalacticGPS\Problem1GalacticGPS.csproj", "{DED09677-CCDE-4C6C-99C5-ACA59C2E8456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem2FractionCalculator", "Problem2FractionCalculator\Problem2FractionCalculator.csproj", "{FD585404-9515-4096-8E75-A3BDF6C1BDA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem3GenericListAndProblem4", "Problem3GenericList\Problem3GenericListAndProblem4.csproj", "{C67E7ED8-F023-49A2-8E7D-1FB9AFFC4468}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DED09677-CCDE-4C6C-99C5-ACA59C2E8456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED09677-CCDE-4C6C-99C5-ACA59C2E8456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED09677-CCDE-4C6C-99C5-ACA59C2E8456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED09677-CCDE-4C6C-99C5-ACA59C2E8456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD585404-9515-4096-8E75-A3BDF6C1BDA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD585404-9515-4096-8E75-A3BDF6C1BDA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD585404-9515-4096-8E75-A3BDF6C1BDA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD585404-9515-4096-8E75-A3BDF6C1BDA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C67E7ED8-F023-49A2-8E7D-1FB9AFFC4468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67E7ED8-F023-49A2-8E7D-1FB9AFFC4468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67E7ED8-F023-49A2-8E7D-1FB9AFFC4468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67E7ED8-F023-49A2-8E7D-1FB9AFFC4468}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

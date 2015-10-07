@@ -1,0 +1,34 @@
+Eclipse
+
+Besides being the number on way to develop Android applications via the Android SDK, it is fully extensible to use languages such as Ruby, C, C++ and many many more.
+The languages mentioned above are not limited by Microsoft and anyone is free to develop plug-ins for different languages and to make the development environment easier to use
+The ability to use this on Linux
+
+Aptana Studio 3
+
+If web and scripting languages are more of your style, Aptana is well suited for the task. PHP, Ruby on Rails, and Python are supported as well as the likes of Adobe AIR.
+It has the features like code completion ,outlining, Javascript Debugging, error and warning notification and integrated documentation.
+Aptana Studio is based on Eclipse and is available as standalone on Windows ,Mac & linux, or as a plug-in for Eclipse.
+
+
+Code::Blocks
+
+Its users are mostly those who are using C/C++,with plug-ins it can be used for Python and other languages as well
+Blocks is distributed under the GPL v3.0 license which means it can be used freely by anyone.
+
+
+Geany
+
+It was developed to provide a small and fast IDE, which has only a few dependencies from other packages.
+It supports languages like C, Java, PHP, HTML, Python.. and a lot of file types. It is also cross-platform and extensible
+
+Monodevelop
+
+MonoDevelop is an IDE primarily designed for C# and other .NET languages.
+MonoDevelop enables developers to quickly write desktop and ASP.NET Web applications .
+ith its features like integrated debugger, code completion for C,C# & being easily customizable   this IDE is quite easy to work on.
+
+
+
+
+

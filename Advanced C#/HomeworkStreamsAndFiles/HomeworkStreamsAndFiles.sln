@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem1OddLines", "Problem1OddLines\Problem1OddLines.csproj", "{4BF72430-5DEF-4011-ADC5-B250389D1F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem2LineNumbers", "Problem2LineNumbers\Problem2LineNumbers.csproj", "{8CCA1917-9AFD-4888-AD90-A6A7459E676F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem3WordCount", "Problem3WordCount\Problem3WordCount.csproj", "{B49E8E90-8399-4C21-8D94-D15332D1B426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem4CopyBinaryFile", "Problem4CopyBinaryFile\Problem4CopyBinaryFile.csproj", "{9947FE92-6B01-42F2-BA12-0C0D5011B46D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem5SlicingFile", "Problem5SlicingFile\Problem5SlicingFile.csproj", "{19D2D737-FA65-41C2-9ABB-5FF4834173FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem6ZippingSlicedFiles", "Problem6ZippingSlicedFiles\Problem6ZippingSlicedFiles.csproj", "{3CD67994-83CA-4535-9212-6764EC8DB3BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem7DirectoryTraversal", "Problem7DirectoryTraversal\Problem7DirectoryTraversal.csproj", "{24411BD3-0196-409A-BC4D-18D1CC26FE2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BF72430-5DEF-4011-ADC5-B250389D1F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF72430-5DEF-4011-ADC5-B250389D1F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF72430-5DEF-4011-ADC5-B250389D1F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF72430-5DEF-4011-ADC5-B250389D1F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CCA1917-9AFD-4888-AD90-A6A7459E676F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCA1917-9AFD-4888-AD90-A6A7459E676F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCA1917-9AFD-4888-AD90-A6A7459E676F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCA1917-9AFD-4888-AD90-A6A7459E676F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B49E8E90-8399-4C21-8D94-D15332D1B426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49E8E90-8399-4C21-8D94-D15332D1B426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49E8E90-8399-4C21-8D94-D15332D1B426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49E8E90-8399-4C21-8D94-D15332D1B426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9947FE92-6B01-42F2-BA12-0C0D5011B46D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9947FE92-6B01-42F2-BA12-0C0D5011B46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9947FE92-6B01-42F2-BA12-0C0D5011B46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9947FE92-6B01-42F2-BA12-0C0D5011B46D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19D2D737-FA65-41C2-9ABB-5FF4834173FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D2D737-FA65-41C2-9ABB-5FF4834173FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D2D737-FA65-41C2-9ABB-5FF4834173FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D2D737-FA65-41C2-9ABB-5FF4834173FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD67994-83CA-4535-9212-6764EC8DB3BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD67994-83CA-4535-9212-6764EC8DB3BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD67994-83CA-4535-9212-6764EC8DB3BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD67994-83CA-4535-9212-6764EC8DB3BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24411BD3-0196-409A-BC4D-18D1CC26FE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24411BD3-0196-409A-BC4D-18D1CC26FE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24411BD3-0196-409A-BC4D-18D1CC26FE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24411BD3-0196-409A-BC4D-18D1CC26FE2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

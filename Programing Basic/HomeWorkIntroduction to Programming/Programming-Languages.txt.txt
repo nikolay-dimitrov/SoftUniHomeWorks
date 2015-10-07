@@ -1,0 +1,48 @@
+Java
+Similar:
+Both C# and Java have built-in garbage collection.
+Both C# and Java Are "Pure" Object-Oriented Languages.
+
+Difference:
+Java Will Run on "Any" Operating System.
+C# Is a More Complex Language than Java.C# and Java Keyword Comparison
+
+
+C
+Similar:
+As a general rule, you can do everything in C that you do in C# and far more.
+
+Difference:
+C is not object oriented.
+Garbage Collection (GC) is the single most important factor in differentiating between these languages.
+
+
+C++
+Similar:
+As a general rule, you can do everything in C++ that you do in C# and far more.
+Both C# and C++ Are "Pure" Object-Oriented Languages.
+
+Difference:
+Garbage Collection (GC) is the single most important factor in differentiating between these languages.
+Productivity - most of the time and all else being equal it will take you longer to get things done in C++.
+
+
+Visual Basic .NET
+Similar:
+They are sharing same platform:NET Framework.
+Although there are some differences in the programming constructs, their differences are primarily syntactic and, assuming one avoids the Visual Basic "Compatibility" libraries provided by Microsoft to aid conversion from VB6, almost every command in VB has an equivalent command in C# and vice versa
+Both languages reference the same Base Classes of the .NET Framework to extend their functionality
+Both are Object-Oriented
+
+Difference:
+Partial InterfacesBy default, numeric operations are not checked.
+By default, numeric operations are not checked. This results in slightly faster code, at the risk that numeric overflows will not be detected
+
+Python
+Similar:
+Both C# and Java have built-in garbage collection.
+Named parameters and default values: works ~ the same in C# in terms of syntax.
+
+Difference:
+Python doesn’t have true generational GC(garbage collection)
+Macro System
