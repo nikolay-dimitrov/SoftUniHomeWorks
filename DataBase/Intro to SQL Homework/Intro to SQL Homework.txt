@@ -1,0 +1,145 @@
+/* Task04 Write a SQL query to find all information about all departments (use "TelerikAcademy" database).*/
+
+4 Select *
+FROM TelerikAcademy.dbo.Departments
+
+/* Task 05 Write a SQL query to find all department names.*/
+
+5 Select Name
+FROM TelerikAcademy.dbo.Departments
+
+/* Task 06 Write a SQL query to find the salary of each employee.*/
+
+6 Select FirstName,LastName,Salary
+FROM TelerikAcademy.dbo.Employees
+
+/* Task 07 Write a SQL to find the full name of each employee. */
+
+7 Select FirstName + ' ' + LastName AS [Full Name]
+FROM TelerikAcademy.dbo.Employees
+
+/* Task 08 Write a SQL query to find the email addresses of each employee (by his first and last name). 
+Consider that the mail domain is telerik.com. Emails should look like “John.Doe@telerik.com". 
+The produced column should be named "Full Email Addresses". */
+
+8 Select FirstName + '.' + LastName + '@telerik.com' AS [Full Email Addresses]
+FROM TelerikAcademy.dbo.Employees
+
+/* Task 09 Write a SQL query to find all different employee salaries.*/
+
+9 Select DISTINCT Salary AS [Different Salary]
+FROM TelerikAcademy.dbo.Employees
+
+/* Tasks 10 Write a SQL query to find all information about the employees whose job title is “Sales Representative“. */
+
+10 Select  JobTitle,[FirstName]
+      ,[LastName]
+      ,[MiddleName]
+      ,[JobTitle]
+      ,[DepartmentID]
+      ,[ManagerID]
+      ,[HireDate]
+      ,[Salary]
+      ,[AddressID] AS [Sales Representative]
+FROM TelerikAcademy.dbo.Employees
+Where JobTitle = 'Sales Representative'
+
+/* Task 11 Write a SQL query to find the names of all employees whose first name starts with "SA". */
+
+11 Select EmployeeID, FirstName
+FROM TelerikAcademy.dbo.Employees
+Where FirstName LIKE  'SA%'
+
+/* Task 12 Write a SQL query to find the names of all employees whose last name contains "ei"*/
+
+12 Select EmployeeID,LastName
+FROM TelerikAcademy.dbo.Employees
+Where LastName LIKE  '%ei%'
+
+/* Task 13 Write a SQL query to find the salary of all employees whose salary is in the range [20000…30000].*/
+
+13 Select EmployeeID,FirstName,LastName,Salary
+FROM TelerikAcademy.dbo.Employees
+Where Salary BETWEEN 20000 AND 30000
+ORDER BY Salary ASC
+
+/* Tasks 14 Write a SQL query to find the names of all employees whose salary is 25000, 14000, 12500 or 23600.*/
+
+14 Select EmployeeID,FirstName+ ' '+LastName AS FullName,Salary
+FROM TelerikAcademy.dbo.Employees
+Where Salary IN (25000 , 14000,12500,23600)
+ORDER BY Salary ASCC
+
+/* Task 15 Write a SQL query to find all employees that do not have manager. */
+
+15 Select EmployeeID,FirstName+ ' '+LastName AS FullName,Salary
+FROM TelerikAcademy.dbo.Employees
+Where ManagerID IS NULL
+ORDER BY Salary ASC
+
+/*Task 16 Write a SQL query to find all employees that have salary more than 50000. 
+Order them in decreasing order by salary.*/
+
+16 Select EmployeeID,FirstName+ ' '+LastName AS FullName,Salary
+FROM TelerikAcademy.dbo.Employees
+Where Salary > 50000
+ORDER BY Salary DESC
+
+/*Task 17 Write a SQL query to find the top 5 best paid employees.*/
+
+17 SELECT TOP 5 FirstName, LastName, Salary
+FROM Employees
+ORDER BY Salary DESC
+
+/* Tsk 18 Write a SQL query to find all employees along with their address. Use inner join with ON clause.*/
+
+18 Select e.FirstName +' '+ e.LastName AS [FullName],a.AddressText
+FROM TelerikAcademy.dbo.Employees e INNER JOIN TelerikAcademy.dbo.Addresses a
+ON e.AddressID = a.AddressID
+
+/* Task 19 Write a SQL query to find all employees and their address. Use equijoins (conditions in the WHERE clause).*/
+
+19 SELECT e.FirstName + ' ' + e.LastName,d.AddressText
+FROM TelerikAcademy.dbo.Employees e , TelerikAcademy.dbo.Addresses d
+WHERE e.AddressID = d.AddressID
+
+/* Task 20 Write a SQL query to find all employees along with their manager.*/
+
+20 SELECT e.FirstName + ' ' + e.LastName As[Full Name],d.LastName [Manager Last Name]
+FROM  TelerikAcademy.dbo.Employees e,TelerikAcademy.dbo.Employees d
+WHERE e.ManagerID = d.EmployeeID
+
+/* Task 21 Write a SQL query to find all employees, along with their manager and their address. 
+Join the 3 tables: Employees e, Employees m and Addresses a. */
+
+21 SELECT e.FirstName + ' ' + e.LastName as [Employee Name],d.LastName AS [Manager Last Name],a.AddressText 
+FROM TelerikAcademy.dbo.Employees e,TelerikAcademy.dbo.Employees d,TelerikAcademy.dbo.Addresses a
+WHERE e.ManagerID = d.EmployeeID
+AND e.AddressID = a.AddressID
+
+/* Task 22 Write a SQL query to find all departments and all town names as a single list. Use UNION.*/
+22 SELECT Name AS [Town/Department]
+FROM TelerikAcademy.dbo.Departments 
+UNION
+SELECT Name AS [Town/Department]
+FROM TelerikAcademy.dbo.Towns  
+
+/*Task 23 Write a SQL query to find all the employees and the manager for each of them along with the employees 
+that do not have manager. Use right outer join. Rewrite the query to use left outer join.*/
+
+23 SELECT e.LastName,m.EmployeeID,m.LastName 
+FROM TelerikAcademy.dbo.Employees e LEFT OUTER JOIN TelerikAcademy.dbo.Employees m
+ON e.ManagerID = m.EmployeeID
+
+SELECT e.LastName,m.EmployeeID,m.LastName 
+FROM TelerikAcademy.dbo.Employees e RIGHT OUTER JOIN  TelerikAcademy.dbo.Employees m
+ON e.ManagerID = m.EmployeeID
+
+/* Task 24 Write a SQL query to find the names of all employees from the departments "Sales" and "Finance" 
+whose hire year is between 1995 and 2005. */
+
+24 SELECT e.FirstName + ' ' + e.LastName AS Employee, e.HireDate,
+d.Name
+FROM TelerikAcademy.dbo.Employees e,TelerikAcademy.dbo.Departments d
+WHERE e.DepartmentID = d.DepartmentID AND d.Name IN ('Sales', 'Finance')
+AND e.HireDate BETWEEN '1995-01-01 00:00:00' AND '2005-12-31 00:00:00'
