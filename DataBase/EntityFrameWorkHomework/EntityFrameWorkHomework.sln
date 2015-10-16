@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameWork.Data", "EntityFrameWork.Data\EntityFrameWork.Data.csproj", "{8C249E24-9B5D-4074-8294-C1502F096A7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingDataAccessObjectsClass", "CreatingDataAccessObjectsClass\CreatingDataAccessObjectsClass.csproj", "{7B94824D-188F-4157-9859-B289C47E2B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindingCustomersWithSpecificConditions", "FindingCustomersWithSpecificConditions\FindingCustomersWithSpecificConditions.csproj", "{1A152ED8-E40B-4994-9118-636D110CC19A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindingCustomersWithSpecificConditionsUsingNativeSql", "FindingCustomersWithSpecificConditionsUsingNativeSql\FindingCustomersWithSpecificConditionsUsingNativeSql.csproj", "{21A2385C-F9B0-4377-B238-4897E1D18A41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindingRegionWithSpecificConditions", "FindingRegionWithSpecificConditions\FindingRegionWithSpecificConditions.csproj", "{94AA66B2-1DEA-4C78-8C2C-689EAF4F7175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingNorthwindTwinDb", "CreatingNorthwindTwinDb\CreatingNorthwindTwinDb.csproj", "{8E7C3138-0B40-4344-88D6-7F1F7F5C2CE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendingEmployeeClass", "ExtendingEmployeeClass\ExtendingEmployeeClass.csproj", "{044AF475-E443-4D51-9725-1B0E77C8970C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C249E24-9B5D-4074-8294-C1502F096A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C249E24-9B5D-4074-8294-C1502F096A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C249E24-9B5D-4074-8294-C1502F096A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C249E24-9B5D-4074-8294-C1502F096A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B94824D-188F-4157-9859-B289C47E2B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B94824D-188F-4157-9859-B289C47E2B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B94824D-188F-4157-9859-B289C47E2B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B94824D-188F-4157-9859-B289C47E2B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A152ED8-E40B-4994-9118-636D110CC19A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A152ED8-E40B-4994-9118-636D110CC19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A152ED8-E40B-4994-9118-636D110CC19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A152ED8-E40B-4994-9118-636D110CC19A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A2385C-F9B0-4377-B238-4897E1D18A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A2385C-F9B0-4377-B238-4897E1D18A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A2385C-F9B0-4377-B238-4897E1D18A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A2385C-F9B0-4377-B238-4897E1D18A41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94AA66B2-1DEA-4C78-8C2C-689EAF4F7175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94AA66B2-1DEA-4C78-8C2C-689EAF4F7175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94AA66B2-1DEA-4C78-8C2C-689EAF4F7175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94AA66B2-1DEA-4C78-8C2C-689EAF4F7175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7C3138-0B40-4344-88D6-7F1F7F5C2CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7C3138-0B40-4344-88D6-7F1F7F5C2CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7C3138-0B40-4344-88D6-7F1F7F5C2CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7C3138-0B40-4344-88D6-7F1F7F5C2CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{044AF475-E443-4D51-9725-1B0E77C8970C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044AF475-E443-4D51-9725-1B0E77C8970C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044AF475-E443-4D51-9725-1B0E77C8970C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044AF475-E443-4D51-9725-1B0E77C8970C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
